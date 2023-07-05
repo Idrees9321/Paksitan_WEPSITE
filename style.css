@@ -1,0 +1,71 @@
+body{
+    color: green;
+    background-color: lightgreen;
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    border: 5px dashed green;
+    cursor: pointer;
+}
+
+h2{
+    cursor: pointer;
+}
+
+h3{
+    text-align: center;
+}
+
+
+a{
+    border-radius: 15px;
+    color: green;
+    text-decoration-line: none
+};
+
+p{ 
+    display: inline-block;
+    line-height: 100%;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.big{
+    font-size: 125%;
+}
+
+
+.information-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+.information-box {
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.zoom {
+  transition: transform .2s;
+  width: 200px;
+  height: 245px;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+  transform: scale(1.5);
+  transform: scale(1.5); 
+}
